@@ -20,7 +20,7 @@ int extrairdapilha(Pilha *p, int x)
     }
     else
     {
-      if(front->dado == x)
+      if(front->dado == x) // poping the number
       {
         int asw = front->dado;
         Celula *tmp = front;
